@@ -93,6 +93,17 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./pages/components/header.css":
+/*!*************************************!*\
+  !*** ./pages/components/header.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/components/header.tsx":
 /*!*************************************!*\
   !*** ./pages/components/header.tsx ***!
@@ -104,24 +115,28 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.css */ "./pages/components/header.css");
+/* harmony import */ var _header_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_header_css__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/thanawatgulati/Desktop/_workspace/cv-thanawatgulati/pages/components/header.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 const Header = () => {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: undefined
-  }, __jsx("h1", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: undefined
-  }, "Welcome To NEXTJS."));
+  }, __jsx("h1", {
+    className: "header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, "Thanawat Gulati"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -137,34 +152,35 @@ const Header = () => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/header */ "./pages/components/header.tsx");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/header */ "./pages/components/header.tsx");
 var _jsxFileName = "/Users/thanawatgulati/Desktop/_workspace/cv-thanawatgulati/pages/index.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
 const Index = () => {
   return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, __jsx("h1", {
+    className: "jsx-2037584265",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: undefined
-  }, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2037584265",
+    __self: undefined
+  }, "@font-face{font-family:'k2d-bold';src:url('/fonts/K2D-Bold.ttf');}@font-face{font-family:'k2d-reg';src:url('/fonts/K2D-Regular.ttf');}@font-face{font-family:'k2d-med';src:url('/fonts/K2D-Medium.ttf');}@font-face{font-family:'k2d-light';src:url('/fonts/K2D-Thin.ttf');}h1{font-family:'k2d-med';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90aGFuYXdhdGd1bGF0aS9EZXNrdG9wL193b3Jrc3BhY2UvY3YtdGhhbmF3YXRndWxhdGkvcGFnZXMvaW5kZXgudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU95QixBQUdrQyxBQUlELEFBSUEsQUFJRSxBQUlGLHNCQVhZLEFBSUQsQUFRbkMsQ0FoQmlDLENBWUEsOEJBWGpDLENBUUEsQUFJQSxDQVJBIiwiZmlsZSI6Ii9Vc2Vycy90aGFuYXdhdGd1bGF0aS9EZXNrdG9wL193b3Jrc3BhY2UvY3YtdGhhbmF3YXRndWxhdGkvcGFnZXMvaW5kZXgudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IEhlbG1ldCB9IGZyb20gJ3JlYWN0LWhlbG1ldCc7XG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vY29tcG9uZW50cy9oZWFkZXInO1xuXG5jb25zdCBJbmRleCA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdrMmQtYm9sZCc7XG4gICAgICAgICAgc3JjOiB1cmwoJy9mb250cy9LMkQtQm9sZC50dGYnKTtcbiAgICAgICAgfVxuICAgICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgICBmb250LWZhbWlseTogJ2syZC1yZWcnO1xuICAgICAgICAgIHNyYzogdXJsKCcvZm9udHMvSzJELVJlZ3VsYXIudHRmJyk7XG4gICAgICAgIH1cbiAgICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdrMmQtbWVkJztcbiAgICAgICAgICBzcmM6IHVybCgnL2ZvbnRzL0syRC1NZWRpdW0udHRmJyk7XG4gICAgICAgIH1cbiAgICAgICAgQGZvbnQtZmFjZSB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdrMmQtbGlnaHQnO1xuICAgICAgICAgIHNyYzogdXJsKCcvZm9udHMvSzJELVRoaW4udHRmJyk7XG4gICAgICAgIH1cbiAgICAgICAgaDEge1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiAnazJkLW1lZCc7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDxIZWFkZXIgLz5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEluZGV4O1xuIl19 */\n/*@ sourceURL=/Users/thanawatgulati/Desktop/_workspace/cv-thanawatgulati/pages/index.tsx */"), __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 29
     },
     __self: undefined
-  })));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -191,6 +207,17 @@ module.exports = __webpack_require__(/*! /Users/thanawatgulati/Desktop/_workspac
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 

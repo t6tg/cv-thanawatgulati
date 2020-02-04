@@ -1,9 +1,10 @@
 import React from 'react';
+import './header.css';
 
 const Header = () => {
   return (
     <div>
-      <h1>Welcome To NEXTJS.</h1>
+      <h1 className="header">Thanawat Gulati</h1>
     </div>
   );
 };
